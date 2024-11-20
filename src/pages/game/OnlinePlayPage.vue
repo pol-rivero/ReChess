@@ -63,7 +63,7 @@
     gameStore.onInvalidVariant(() => {
       returnHome(503, 'This variant seems to be invalid. It may have been uploaded \
           using an incompatible version of the site. \
-          \n\nPlease report this by [opening an issue on GitHub](https://github.com/p-rivero/ReChess/issues).')
+          \n\nPlease report this by [opening an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).')
     })
     
     try {
@@ -127,11 +127,11 @@
       await gameStore.cancelGame('An illegal position was detected')
       returnHome(503, 'The game you were playing is invalid, your opponent seems to have made \
           an illegal move. The game has been cancelled. \
-          \n\nIf the problem persists, please [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues).')
+          \n\nIf the problem persists, please [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).')
     } else {
       returnHome(503, 'The game you were spectating seems to be invalid. \
           \n\nPlease try again later, and if the problem persists, \
-          [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues).')
+          [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).')
     }
   }
   

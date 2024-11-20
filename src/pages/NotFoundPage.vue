@@ -8,5 +8,5 @@
   
   const route = useRoute()
   returnHome(404, `The page you are looking for does not exist: \`${route.path}\`.` +
-    '\n\nIf you think this is a mistake, please [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues).')
+    '\n\nIf you think this is a mistake, please [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).')
 </script>

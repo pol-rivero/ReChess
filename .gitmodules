@@ -1,6 +1,6 @@
 [submodule "protochess-engine"]
 	path = protochess-engine
-	url = https://github.com/p-rivero/protochess-engine
+	url = https://github.com/pol-rivero/protochess-engine
 [submodule "chessgroundx"]
 	path = chessgroundx
-	url = https://github.com/p-rivero/chessgroundx
+	url = https://github.com/pol-rivero/chessgroundx

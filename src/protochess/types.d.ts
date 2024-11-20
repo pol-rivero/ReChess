@@ -9,7 +9,7 @@ export type PieceId = string
 // Only the placement of the pieces, in the FEN format
 type FenPlacements = string
 
-/** See [this document](https://github.com/p-rivero/protochess-engine/tree/master/docs/FEN.md)
+/** See [this document](https://github.com/pol-rivero/protochess-engine/tree/master/docs/FEN.md)
  *  for the custom FEN format */
 type FullFen = string
 

@@ -448,7 +448,7 @@
         'Could not publish variant',
         'It seems that it\'s not possible to connect to the server. Please try again later. \
         If the problem persists, back up your variant and \
-        [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues).',
+        [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).',
         'ok'
       )
       return
@@ -470,7 +470,7 @@
         else showPopup(
           'Could not publish variant',
           'Please try again later. If the problem persists, back up your variant and \
-          [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues).',
+          [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).',
           'ok'
         )
       }

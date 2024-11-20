@@ -435,7 +435,7 @@
       showPopup(
         'Account deleted',
         'Your account has been deleted successfully. We are sorry to see you go! \
-        \n\nIf you have any feedback, please [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues).',
+        \n\nIf you have any feedback, please [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues).',
         'ok'
       )
     } catch (e) {
@@ -444,7 +444,7 @@
         'Account deletion failed',
         'This usually happens because it\'s been some time since you last logged in. \
         \n\nPlease sign out and in again, and try again. If the problem persists, please \
-        [open an issue on GitHub](https://github.com/p-rivero/ReChess/issues). \
+        [open an issue on GitHub](https://github.com/pol-rivero/ReChess/issues). \
         \n\nDo you want to log out now?',
         'yes-no',
         async () => {

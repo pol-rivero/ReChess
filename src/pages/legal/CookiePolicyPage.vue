@@ -5,7 +5,7 @@
 
     <p>This is the Cookie Policy for ReChess, accessible from <a href="https://rechess.org">https://rechess.org</a>.</p>
     <p><strong>This site is a free-to-use personal project. It serves no ads and does not track you.</strong> It does not use cookies for any purpose other than to provide the service. Since all cookies are strictly necessary for the functioning of the site, no cookie consent banner needs to be shown.</p>
-    <p>All code is open source and available at <a href="https://github.com/p-rivero/ReChess">GitHub</a>.</p>
+    <p>All code is open source and available at <a href="https://github.com/pol-rivero/ReChess">GitHub</a>.</p>
 
     <h2><strong>What Are Cookies</strong></h2>
     <p>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality.</p>

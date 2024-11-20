@@ -1,6 +1,6 @@
 # ReChess: Chess Reinvented by You
 
-ReChess is an intuitive and easy-to-use chess web app that allows you to create and play your own highly personalized chess variants. It's built with [Vue.js](https://vuejs.org/) and [TypeScript](https://www.typescriptlang.org/), and uses a heavily modified version of the [Protochess engine](https://github.com/p-rivero/protochess-engine) for the game logic.
+ReChess is an intuitive and easy-to-use chess web app that allows you to create and play your own highly personalized chess variants. It's built with [Vue.js](https://vuejs.org/) and [TypeScript](https://www.typescriptlang.org/), and uses a heavily modified version of the [Protochess engine](https://github.com/pol-rivero/protochess-engine) for the game logic.
 
 Check it out at [rechess.org](https://rechess.org)!
 
