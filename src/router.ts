@@ -1,6 +1,6 @@
 import { updateTitle } from '@/helpers/web-utils'
-import HomePage from '@/pages/HomePage.vue'
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
+import ThankYouPage from './pages/ThankYouPage.vue'
 // https://github.com/mutoe/vue3-realworld-example-app/blob/master/src/router.ts
 
 export type AppRouteNames =
@@ -25,15 +25,25 @@ export type AppRouteNames =
 
 export const routes: RouteRecordRaw[] = [
   
+  // {
+  //   name: 'home',
+  //   path: '/',
+  //   component: HomePage,
+  // },
+  // {
+  //   name: 'home-index',
+  //   path: '/index.html',
+  //   component: HomePage,
+  // },
   {
     name: 'home',
     path: '/',
-    component: HomePage,
+    component: ThankYouPage,
   },
   {
     name: 'home-index',
     path: '/index.html',
-    component: HomePage,
+    component: ThankYouPage,
   },
   
   
@@ -137,6 +147,13 @@ export const routes: RouteRecordRaw[] = [
     path: '/:pathMatch(.*)*',
     component: () => import('@/pages/NotFoundPage.vue'),
   },
+
+  {
+    name: 'thanks',
+
+    path: '/thanks',
+    component: () => import('@/pages/ThankYouPage.vue'),
+  },
 ]
 export const router = createRouter({
   history: createWebHistory(),
@@ -144,6 +161,12 @@ export const router = createRouter({
 })
 
 router.beforeEach((to, _from, next) => {
+  if (to.path !== '/thanks') {
+    next('/thanks')
+  } else {
+    next()
+  }
+  return
   const toTitle = to.meta.title as string | undefined
   updateTitle(toTitle)
   next()
