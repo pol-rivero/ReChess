@@ -28,8 +28,12 @@ Make sure you also have `cargo`, `wasm-pack` and `rustup` installed. The first c
 ### Project Setup
 
 ```sh
+npm install -g firebase-tools
+npm install -g wasm-pack
 npm install
 ```
+
+Also make sure you have `rustup` installed, or follow the instructions [here](https://rustwasm.github.io/wasm-pack/book/prerequisites/non-rustup-setups.html) to use `wasm-pack` without `rustup`.
 
 If you use VSCode, install the [Vue Language extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
 
@@ -80,7 +84,7 @@ If you use VSCode, install the [Vue Language extension](https://marketplace.visu
 npm run dev
 ```
 
-This will also start the Firebase emulator suite.
+This will also start the Firebase emulator suite. Once you see the message `All emulators ready! It is now safe to connect your app.`, you can open it at `http://localhost:5173`.
 
 ### Run unit tests
 
